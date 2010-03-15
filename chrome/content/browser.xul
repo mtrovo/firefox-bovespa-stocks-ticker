@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://bovespaticker/skin/skin.css" type="text/css"?>
+<!DOCTYPE bovespaticker SYSTEM "chrome://bovespaticker/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+
+		<script src="ibov.js" />
+
+		<statusbar id="status-bar">
+			<statusbarpanel id="bovespa-ticker-status-bar-icon" label="Bovespa Ticker" tooltiptext="&runbovespaticker;" onclick="bovespaTicker.run()">
+                <html:div id="bovespa-ticker-status-bar-content">
+                    <html:span>XXX XXXX XXXXXX XXX XXXX XXXXX</html:span>
+                </html:div>
+            </statusbarpanel>
+		</statusbar>
+</overlay>

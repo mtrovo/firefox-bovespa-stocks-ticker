@@ -1,0 +1,8 @@
+content     bovespaticker    chrome/content/
+content     bovespaticker    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://bovespaticker/content/browser.xul
+
+locale	bovespaticker	en-US	locale/en-US/
+
+skin	bovespaticker	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://bovespaticker/skin/skin.css
