@@ -8,7 +8,7 @@
 		<statusbar id="status-bar">
 			<statusbarpanel id="bovespa-ticker-status-bar-icon" label="Bovespa Ticker" tooltiptext="&runbovespaticker;" onclick="bovespaTicker.run()">
                 <html:div id="bovespa-ticker-status-bar-content">
-                    <html:span>XXX XXXX XXXXXX XXX XXXX XXXXX</html:span>
+                   XXX
                 </html:div>
             </statusbarpanel>
 		</statusbar>
